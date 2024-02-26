@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+   <div class="carousel-inner">
+
+  <div class="carousel-inner rounded-5 shadow-4-strong">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100"
+        alt="Sunset Over the City" />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Science will save us</h5>
+        <p>No matter how long you live, be in demand for knowledge.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  <div class="row">
+ 
+<div class="row mb-2 mt-3">
+{{#if product.length}} 
+  
+    {{#each product}}
+     <div class="col-md-6">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">{{bookOwner}}</strong>
+              <h4 class="mb-0">
+                <a class="text-dark" href="/book/{{_id}}">{{bookName}}</a>
+              </h4>
+              <p class="card-text mb-auto">{{bookInfo}}</p>
+              <a href="/book/{{_id}}" class="btn-success">Continue reading</a>
+
+              {{!-- <form action="/delite/{{_id}}" method="post">
+              <button type="submit" class="text-danger">delite</button>
+              </form> --}}
+               </div>
+            <img src="{{bookImg}}" class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;"  data-holder-rendered="true">
+          </div>
+        </div>
+   
+    {{/each}}
+    </div>
+{{else}}
+    <p>No Book</p>
+{{/if}}
+
+</div>
+
+<script>
+  import { Carousel, initMDB } from "mdb-ui-kit";
+
+initMDB({ Carousel });
+</script>

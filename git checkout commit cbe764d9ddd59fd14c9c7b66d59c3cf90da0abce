@@ -1,0 +1,35 @@
+[33mcommit 767a7b858529a5410e2f5e031fa9d5dd91e5435e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Shoxruz <ab.shoxruz@gmail.com>
+Date:   Fri Feb 23 16:22:27 2024 +0500
+
+    first commit
+
+[33mcommit eeec85829f9d3bea3949961133b989baefe20b79[m
+Author: Shoxruz <ab.shoxruz@gmail.com>
+Date:   Fri Feb 23 15:07:12 2024 +0500
+
+    Admin Panel
+
+[33mcommit cbe764d9ddd59fd14c9c7b66d59c3cf90da0abce[m
+Author: Shoxruz <ab.shoxruz@gmail.com>
+Date:   Wed Feb 21 12:15:18 2024 +0500
+
+    versia 2.1 .env + JWT
+
+[33mcommit accf5a37fc80b5a0b2e37a4ae04ef533dcf86495[m
+Author: Shoxruz <ab.shoxruz@gmail.com>
+Date:   Wed Feb 21 12:11:43 2024 +0500
+
+    versia 2.0 JWT
+
+[33mcommit 32617d37f8bfc7964f810f36801309585e9899b2[m
+Author: Shoxruz <ab.shoxruz@gmail.com>
+Date:   Sun Feb 18 15:51:12 2024 +0500
+
+    library
+
+[33mcommit be3b64dc99ec21b1231e3086e86b9d869a520af8[m
+Author: Shoxruz <ab.shoxruz@gmail.com>
+Date:   Sun Feb 18 15:30:44 2024 +0500
+
+    first commit
